@@ -1,11 +1,8 @@
-# 运行时数据（含隐私/密钥，严禁提交）
-data/models.json
-data/agent_memory.sqlite*
-data/chat_threads.json
-data/profiles/_active.txt
-data/vector_store/
+# 数据目录整体不提交（含密钥/对话记忆/知识库文档/配置）
+data/
 
-# 运行产物（examples/ 中保留了精选示例）
+# 示例与运行产物不提交
+examples/
 reports/
 tests_generated/
 
