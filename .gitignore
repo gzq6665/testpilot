@@ -1,0 +1,17 @@
+# 运行时数据（含隐私/密钥，严禁提交）
+data/models.json
+data/agent_memory.sqlite*
+data/chat_threads.json
+data/profiles/_active.txt
+data/vector_store/
+
+# 运行产物（examples/ 中保留了精选示例）
+reports/
+tests_generated/
+
+# 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+*.xlsx
