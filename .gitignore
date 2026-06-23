@@ -1,0 +1,14 @@
+# 数据目录整体不提交（含密钥/对话记忆/知识库文档/配置）
+data/
+
+# 示例与运行产物不提交
+examples/
+reports/
+tests_generated/
+
+# 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+*.xlsx
